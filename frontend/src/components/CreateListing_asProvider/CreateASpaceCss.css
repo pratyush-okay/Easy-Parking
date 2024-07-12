@@ -1,0 +1,15 @@
+
+.labels {
+    padding-top: 4px;
+}
+
+.inputFields {
+    padding-top: 0;
+    margin-top: 4px;
+}
+
+.priceCheckboxItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

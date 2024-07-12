@@ -1,0 +1,26 @@
+.home{
+    margin: 20px;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+  }
+  
+  .profile-actions button {
+    margin-right: 10px;
+  }
+  
+  .profile-actions button,
+  .profile-actions button:hover,
+  .profile-actions button:focus {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .profile-actions button:hover,
+  .profile-actions button:focus {
+    text-decoration: underline;
+  }

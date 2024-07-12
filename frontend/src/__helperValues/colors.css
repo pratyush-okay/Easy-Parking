@@ -1,0 +1,14 @@
+/* colors.css */
+:root {
+    --background-light: #F4F1DE;
+    --primary-color: #E07A5F;
+    --secondary-color: #3D405B;
+    --thirdry-color: #81B29A;
+    --info-color: #F2CC8F;
+    /* --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --background-white: #ffffff; */
+  }
+  

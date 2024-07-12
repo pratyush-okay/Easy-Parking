@@ -1,0 +1,320 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+span{
+  margin: 10px 0;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+[class^='Mui'] { /* This selector targets all classes that start with 'Mui' */
+  font-family: 'Poppins', sans-serif !important; /* Ensures that Poppins overrides other styles */
+  font-weight: 500 !important; /* Ensures that font-weight 300 overrides other styles */
+}
+
+body {
+  margin: 0;
+  font-family:"Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.form-box {
+  display: flex;
+  padding: 16px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.PersonalInfo {
+  display: flex;
+  padding: 16px;
+  border: 0px;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+sup {
+  color: red;
+  top: -2px;
+  font-size: 95%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.Field {
+  position: relative;
+  width: 80%;
+}
+
+.FieldError {
+  color: red;
+  font-size: 12px;
+}
+
+.form-box .link {
+  display: block;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.PagePath {
+  display: block;
+  text-align: left;
+}
+
+.Link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+span.Link {
+  float: right;
+}
+
+.PersonalInfo .FieldValue,
+.Section input {
+  margin: 3% 0;
+}
+
+.Section input {
+  padding: 5px 5px;
+  width: calc(100% - 5px - 5px);
+}
+
+.PersonalInfo .Section .FieldTitle {
+  text-transform: capitalize;
+}
+
+.OtpInput {
+  display: flex;
+  justify-content: center;
+  margin: 23px 0;
+  transform: scale(2);
+}
+
+.OtpInput input {
+  font-size: 0.7rem;
+  border-radius: 3px;
+  width: auto;
+  padding: 0;
+  margin: 2px;
+  width: 20px !important;
+}
+
+.DescriptionBlock {
+  background-color: #cccccc;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.Center {
+  text-align: center;
+}
+
+.PhoneInput {
+  z-index: 900;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.react-international-phone-input {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 7px 7px;
+}
+
+.EditSaveBtn {
+  display: block;
+  width: 15%;
+  background-color: #003f6b;
+  color: white;
+  border: 0px;
+}
+
+.EditSaveBtn:hover {
+  background-color: #003f6b;
+}
+
+.form-box .btn {
+  padding: 12px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px auto;
+  background-color: #003f6b;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+button:disabled,
+button:disabled:hover,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.navbar-border {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-fix {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.TODO {
+  color: red;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.main {
+  position: relative;
+  top: 80px;
+  margin: 0 70px;
+  height: calc(100vh - 80px);
+  overflow-x: scroll;
+}
+
+.map-main {
+  position: relative;
+  top: -20px;
+  margin: 0 -70px;
+}
+
+.map-right {
+  position: fixed;
+  height: calc(100% - 80px + 20px);
+  width: 65%;
+  right: 0;
+}
+
+.map-left {
+  position: fixed;
+  height: calc(100% - 80px + 20px);
+  width: 35%;
+  left: 0;
+}
+
+.map-left .query-bar {
+  position: relative;
+  /* height: 6%; */
+}
+
+.map-left .query-listing {
+  position: relative;
+  height: 94%;
+  overflow-x: 'scroll'
+}
+
+.listing-query-btns {
+  position: relative;
+  float: right;
+}
+
+.recenter-btn {
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  right: 0.7%;
+  bottom: 15%;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.login-container {
+  flex: 0.7;
+}
+
+.logo {
+  width: 23%; /* Ensures the logo is responsive */
+  height: 23%;
+  margin: 0 3%;
+}
+
+.info-section h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 3em !important;
+}
+
+.info-section p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+.info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.login-page-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.left-img{
+  position: relative;
+  height: auto;
+  border-radius: 15px
+}

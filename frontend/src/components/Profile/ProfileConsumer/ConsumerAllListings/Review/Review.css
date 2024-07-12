@@ -1,0 +1,9 @@
+.review{
+    width: 440px;
+    margin: 50px 10%;
+}
+
+.reviewFields{
+    display: flex;
+    flex-direction: column;
+}

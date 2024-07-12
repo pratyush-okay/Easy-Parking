@@ -1,0 +1,14 @@
+name: 9900projectenv
+channels:
+  - defaults
+dependencies:
+  - python=3.12.2
+  - pip
+  - pip:
+      - Django==5.0.3
+      - djangorestframework==3.14.0
+      - django-cors-headers==4.3.1
+      - asgiref==3.7.2
+      - pytz==2024.1
+      - sqlparse==0.4.4
+

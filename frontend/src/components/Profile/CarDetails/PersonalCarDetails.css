@@ -1,0 +1,47 @@
+/* Colour palette
+# F4F1DE light yellow
+# E07A5F orange
+# 3D405B blue
+# 81B29A green
+# F2CC8F dark yellow
+*/
+
+.button{
+    left: 300px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 0px;
+    margin:1px 1px;
+    width: 40px;
+    background:#81B29A;
+    border:none;
+    color: white;
+    cursor:pointer;
+    transition: all 0.3s ease, transform 0.2s;
+    font-weight: bold;
+}
+
+.addbutton{
+    background:#81B29A;
+    color: white;
+    font-weight: bold;
+    display: block;
+    
+}
+
+.textleft{
+    text-align:left;
+    margin:1px 1px;
+}
+
+.selectbox{
+    display: block;
+    font-weight: bold;
+}
+
+.carimage{
+    display: flex;
+    border-radius:50px;
+    height: 175px;;
+}

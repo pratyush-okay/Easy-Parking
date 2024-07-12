@@ -1,0 +1,25 @@
+marker-user-location {
+  background-image: url('https://tiles.locationiq.com/static/images/marker50px.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker-parking-location {
+  background-image: url('https://tiles.locationiq.com/static/images/marker50px.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.airport {
+  height: 69px;
+  width: 47px;
+  background-image: url(https://api.geoapify.com/v1/icon/?type=awesome&scaleFactor=2&color=%2372a2d4&size=x-large&icon=plane-departure&apiKey=YOUR_API_KEY);
+  background-size: contain;
+  cursor: pointer;
+}

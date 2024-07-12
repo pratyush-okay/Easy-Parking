@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "maplibre-gl": "^4.1.2",
+    "react-hook-form": "^7.51.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}
